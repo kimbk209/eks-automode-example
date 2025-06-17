@@ -1,0 +1,50 @@
+# Terraform 관련 파일
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# 로그 파일
+*.log
+
+# 로컬 .terraform 디렉토리
+.terraform/
+.terraform.lock.hcl
+
+# Terraform 플랜 파일
+*.tfplan
+
+# 민감한 정보가 포함될 수 있는 파일
+.env
+*.pem
+*.key
+*.crt
+*.cer
+kubeconfig*
+
+# Mac OS 관련 파일
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE 관련 파일
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 임시 파일
+*.bak
+*.tmp
+*.temp

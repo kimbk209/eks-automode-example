@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     profile = "byunggwon"
     bucket         = "byunggwon-demo-terraform-state"
-    key            = "demo-eks-configuration/terraform.tfstate"
+    key            = "demo-eks/terraform.tfstate"
     region         = "ap-northeast-2"
   }
 
